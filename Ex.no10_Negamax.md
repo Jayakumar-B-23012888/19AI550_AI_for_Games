@@ -1,7 +1,9 @@
 # Ex.No: 10 Implementation of Negamax algorithm 
 
 DATE:12-11-2024
+
 NAME: JAYAKUMAR B
+
 REGISTER NUMBER : 212223040073
 
 ### Aim:
