@@ -1,6 +1,6 @@
 # Ex.No: 6  Implementation of Zombie survival game using A* search 
 
-### DATE: 
+### DATE: 12-11-2024
 
 ### NAME : JAYAKUMAR B
 
