@@ -1,29 +1,35 @@
-Ex.No: 11 Mini Project - Cannon Game with Pathfinding
-DATE: 12.11.2024
-REGISTER NUMBER: 212222240117
-AIM
+# Ex.No: 11 Mini Project - Cannon Game with Pathfinding
+
+####   DATE: 12.11.2024
+
+#### NAME: JAYAKUMAR B
+
+### REGISTER NUMBER: 212223040073
+
+### AIM
 To write a Python program to simulate a cannon game with pathfinding algorithms using Pygame.
 
-Algorithm
-1. Initialize Game Components
+#### Algorithm
+
+#### 1. Initialize Game Components
 Import necessary libraries (Pygame, Numpy, etc.).
 Set up Pygame screen, colors, and basic game settings (FPS, screen size, cannon setup).
-2. Define Game Objects
+#### 2. Define Game Objects
 Ball Class: Represents the cannonball, handles its movement and physics (gravity).
 Target Class: Represents targets, handles their movement across the screen.
 Pathfinding Algorithm: Implements basic AI for target movement and collision detection with the cannonball.
-3. Gameplay Loop
+#### 3. Gameplay Loop
 Cannon: Handles mouse input to aim and fire the cannonball.
 Targets: Targets move randomly and can be hit by the cannonball.
 Collision Detection: Detect when the ball hits the target and update the score.
 Game Over: Check if a target crosses the screen boundary to end the game.
 Score System: Increase score when a target is hit and reset the game upon game over.
-4. End-of-Game Data Logging and Visualization
+#### 4. End-of-Game Data Logging and Visualization
 Save game statistics such as the score to a CSV file.
 Visualize the game stats using Matplotlib.
-Program
-python
-Copy code
+
+### Program
+```
 import pygame
 import random
 import math
@@ -183,8 +189,16 @@ plt.ylabel('Value')
 plt.title('Game Results')
 plt.savefig("game_results.png")
 plt.show()
-Output
-The game will display a simple Cannon Game where you can click to aim and fire a cannonball at randomly moving targets. The final score will be saved to a CSV file, and a bar chart visualizing the results will be generated.
+```
+#### Output
+start screen
+![image](https://github.com/user-attachments/assets/380c9210-d921-4eec-a0d8-7fd33d76ee93)
 
-Result
-Thus, the cannon game with pathfinding and AI for targets was implemented. The final score and results were saved to a CSV file, and the game results were visualized using a bar chart.
+main game
+![image](https://github.com/user-attachments/assets/681c5300-bb26-42dc-beb2-47b32a26de28)
+
+game over screen
+![image](https://github.com/user-attachments/assets/65c38ea2-dc41-43d6-bb79-99d138c53a7f)
+
+#### Result
+Thus, the cannon game with pathfinding and AI for targets was implemented.
